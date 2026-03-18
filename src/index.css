@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-litay-primary: #528163;
+  --color-litay-primary-dark: #2d5f3f;
+  --color-litay-dark-green: #17320b;
+  --color-litay-accent: #8dd1bb;
+  --color-litay-light: #e8f5e8;
+  --color-litay-dark: #2c3e50;
+
+  --font-sans: 'Assistant', 'Noto Sans Hebrew', 'Inter', system-ui, sans-serif;
+  --font-rubik: 'Rubik', 'Arial', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: 'Assistant', 'Heebo', 'Arial Hebrew', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
